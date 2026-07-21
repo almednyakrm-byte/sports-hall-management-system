@@ -1,0 +1,38 @@
+{
+  "project_name": "نظام إدارة صالات رياضية",
+  "project_type": "booking_system",
+  "color_palette": "orange-500 and gray-200",
+  "modules": [
+    "memberships",
+    "bookings",
+    "payments"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "bookings_list",
+    "membership_plans",
+    "payment_history"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "bookings_list",
+      "membership_plans",
+      "payment_history"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "register",
+      "bookings_list",
+      "membership_plans",
+      "payment_history"
+    ]
+  }
+}
